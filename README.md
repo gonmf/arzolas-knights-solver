@@ -21,6 +21,8 @@ A string like `4;5;rxxbb..rx..xx..xx..x;b..rryyb.yy......yy.` has four component
 - list from left to right, top to bottom, of the board (free, blocked or goal color)
 - list from left to right, top to bottom, of the board pieces (knights)
 
+The position codes are: free ".", blocked "x", goal positions "r" or "b" for red and blue, and pieces are "r", "b" or "y" for yellow.
+
 ## Solution format
 
 The solution is given for a board using chess coordinates, for instance for 4x5:
